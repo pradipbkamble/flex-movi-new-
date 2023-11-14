@@ -1,0 +1,430 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mainbody{
+    background-color: var(--bg-color);
+}
+
+
+.header{
+    display: flex;
+    height: 450px;
+    background-color: var(--primary-color);
+    color: var(--sec-color);
+
+    
+}
+.main1 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 2.5rem;
+}
+.head:hover{
+    color: blanchedalmond;
+}
+.para{
+    color: var(--tri-color);
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+.navbar1 ul li a:link,
+.navbar1 ul li a:visited{
+    background-color:var(--tri-color);
+    text-transform: capitalize;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 25px;
+    padding: 12px;
+    display: block;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+.navbar1 ul li a:hover,
+.navbar1 ul li a:focus,
+.navbar1 ul li a:active{
+    background-color: var(--primary-color);
+    color: var(--sec-color);
+}
+
+
+
+
+/* css on featuresection*/
+
+.featuresection{
+    flex-direction: column;
+}
+.posts{
+flex-direction: column;
+}
+.post{
+    background-color: var(--sec-color);
+    width: 98%;
+}
+.post1{
+    width:98%;
+}
+.post2{
+    width:98%;
+}
+
+.posts{
+    justify-content:space-evenly;
+}
+img.fig1,img.fig2 {
+    width: 100%;
+}
+
+.head2{
+    background-color: var(--tri-color);
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--sec-color);
+    text-transform: capitalize;
+}
+.para1{
+padding: 15px;
+color: var(--primary-color);
+font-size: 20px;
+text-align: center;
+margin-bottom: 20px;
+}
+.head3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    color: var(--sec-color)
+}
+.watchsection{
+    width: 98%;
+}
+.watchcard{
+    background-color: var(--primary-color);
+    color: var(--sec-color);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+
+}
+.watch1{
+    width:100%;
+    height: 100%;
+
+}
+
+figcaption.wathchcontain {
+    padding: 20px;
+    font-size: 20px;
+    width: 74%;
+    margin-top: 85px;
+}
+.watchcard1{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--primary-color);
+    color: var(--sec-color);
+    margin-bottom: 20px;
+    width: 100%;
+}
+.headeh2{
+    padding: 15px;
+    text-transform: capitalize;
+    font-size: 53px;
+    font-weight: bold;
+    text-align: center;
+}
+span {
+    padding: 26px;
+}
+p.fightpara {
+    padding: 10px;
+    font-size: 22px;
+    text-transform: inherit;
+}
+figcaption.watchcontain{
+    margin-top:60px;
+}
+img.download1 {
+    width: 100%;
+}
+.downgenrete{
+    display: flex;
+}
+section.download {
+    width: 98%;
+}
+
+.downloadfig{
+    width: 10%;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 5px;
+}
+.downinfo{
+    width: 60%;
+    background-color: var(--sec-color);
+    padding: 20px;
+
+}
+h3.cast {
+    font-size: 20px;
+    margin-top: 1px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color:var(--primary-color);
+}
+section.downloadcard {
+    width: 100%;
+}
+img.download1 {
+    width: 100%;
+}
+p.downnotation {
+    padding: 2px 10px 0 5px;
+}
+.dow {
+    width: 20%;
+    background-color: var(--tri-color);
+    text-align: center;
+    padding: 20px;
+    color: var(--primary-color);
+}
+.downloadcontaint{
+    display: flex;
+
+}
+.rating {
+    width: 20%;
+    background-color: var(--tri-color);
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+section.posts {
+    width: 100%;
+}
+section.gallarym {
+    width: 98%;
+}
+
+.gallarymaincontain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+img.gallary {
+    width: 100%;
+}
+.cardright{
+    border:1px solid black;
+    background-color: var(--sec-color);
+    text-align: center;
+    padding: 10px;
+    margin:60px 30px 70px 10px;
+    border-radius: 8px;
+}
+.h3right {
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+ul.mov {
+    font-size: medium;
+    padding: 10px;
+    font-weight: bold;
+}
+.copy {
+    background-color:var(--tri-color);
+    padding: 20px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 100%;
+   
+}
+@media all and (min-width:1180px)  {
+   .navbar1 ul{
+        display: flex;
+    }
+    .navbar1 li{
+     flex-grow: 1;
+    }
+    .featuresection{
+        display: flex;
+        flex-direction:row;
+    }
+    .posts{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 96%;
+    }
+    .post{
+        background-color: var(--sec-color);
+        width: 48.3%;
+    }
+    .post1{
+        width:32%;
+    }
+    .post2{
+        width: 98%;
+    }
+    
+    .post{
+        margin-bottom: 15px;
+    }
+    .left-section{
+        flex-grow: 1;
+width: 80%;
+padding: 10px;
+            }
+    .right-section{
+        width: 20%;
+    }
+    
+    .watchsection{
+        width: 98%;
+        margin:10px;
+    }
+.download{
+        width:
+         100%;
+    }
+    .downloadcard {
+        width: 100%;
+    }
+    .gallarymain{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+     img.gallary{
+        height: 100%;
+     }
+    a.gallary1 {
+        width: 33%;
+    }
+    a.gallary2 {
+        width: 67%;
+    }
+    a.gallary3 {
+        width: 30%;
+    }
+    a.gallary4 {
+        width: 42%;
+    }
+    a.gallary5 {
+        width: 28%;
+    }
+    a.gallary6 {
+        width: 25%;
+    }
+    
+    a.gallary7 {
+        width: 50%;
+        
+    }
+    a.gallary8 {
+        width: 25%;
+    }
+    a.gallary9 {
+        width: 51%;
+    }
+    a.gallary10 {
+        width: 49%;
+    }
+    
+            }
+    
+
+
+
+@media all and (max-width:650px) {
+    .post1,.post{
+        width: 100%;
+    }
+    .watchcard{
+        background-color: var(--primary-color);
+        color: var(--sec-color);
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+
+    }
+    .watchcard1{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: var(--primary-color);
+        color: var(--sec-color);
+        margin-bottom: 20px;
+        width: 100%;
+        flex-direction:column ;
+    }
+    .downloadfig {
+        width: 100%;
+        border-radius: 50%;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .downloadcontaint{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .dow {
+        width: 100%;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .downinfo{
+        width: 100%;
+    }
+    .rating{
+        width: 100%;
+    }
+    section.download {
+        width: 98%;
+    }
+    .downcast {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-section{
+        padding: 10px;
+    }
+    .right-section{
+        width: 98%;
+    }
+    section.gallarym {
+        width: 98%;
+    }
+
+
+}
+
+
+
+
+

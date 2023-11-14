@@ -1,0 +1,18 @@
+:root{
+    --primary-color:black;
+    --sec-color:white;
+    --tri-color:gold;
+    --bg-color:rgb(43, 95, 95);
+}
+ul{
+    list-style: none;
+}
+a:link,a:visited{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
